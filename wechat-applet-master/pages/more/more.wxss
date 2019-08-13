@@ -1,0 +1,7 @@
+.more-container{
+  background: #eee;
+    /* flex-direction: row; */
+    /* display: flex; */
+}
+
+

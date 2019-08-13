@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "moreCell": "../../components/moreCell/moreCell"
+  },
+  "backgroundColor": "#eee",
+  "navigationBarTitleText": "我的",
+  "navigationBarBackgroundColor": "#FF6100",
+  "navigationBarTextStyle": "white"
+}

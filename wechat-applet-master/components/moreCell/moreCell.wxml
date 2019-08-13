@@ -1,0 +1,14 @@
+<view class="more-cell" style="{{data.style}}" bindtap="clickMoreCell" data-item="{{data}}" hover-class="navigator-hover">
+  <navigator url="{{data.url || '/pages/mine/mine'}}" class="more-cell-wapper">
+    <image src="{{data.src}}" class="more-cell-image" wx:if="{{data.src}}"></image>
+    <text>{{data.name}}</text>
+    <view class="more-cell-right">
+      <view class="more-cell-right-info">
+        <image src="{{data.rightSrc}}" wx:if="{{data.rightSrc}}" class="more-cell-right-img"></image>
+        <text wx:else>{{data.rightInfo}}</text>
+      </view>
+      <switch bindchange="switchChange" wx:if="{{data.switchActive}}" checked/>
+      <image src="../../assets/img/icon_cell_rightarrow.png" class="more-cell-right-arrow"></image>
+    </view>
+  </navigator>
+</view>
